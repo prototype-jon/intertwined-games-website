@@ -1,0 +1,177 @@
+:root{
+	  --bs-primary-rgb: 0, 10, 33;
+	  --bs-body-color: #f7f9fa;
+}
+
+
+.featured-game-container{
+	height: 100vh;
+	width: 100vw;
+	background-image: url('images/shardust-bg-2.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.content-container{
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+
+.gradient-container{
+	/*background-color: rgba(51, 51, 153, 1.0);*/
+	/*background-image:  linear-gradient(to right, rgba(51, 51, 153, 1.0), rgba(0, 174, 239, 1.0));*/
+	background-image:  linear-gradient(to right, rgba(14, 14, 15, 1.0), rgba(0, 10, 33, 1.0));
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+}
+
+.meet-the-team{
+	/*image properties*/
+	width: 100vw;
+	background-image: url('images/intertwined-village-2.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+/*.row{
+	padding-top: 6rem;
+	padding-bottom: 6rem;
+}*/
+
+.p-15{
+	padding-top: 15rem;
+	padding-bottom: 15rem;
+}
+
+.nav-item{
+	padding-right: .5rem;
+	padding-left: .5rem;
+}
+
+/*xs*/
+.logo-container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 5rem;
+}
+.shardust-logo{
+	width: 100vw;
+}
+
+.landing-text,
+h1{
+	color: whitesmoke;
+	font-size: 1.5em;
+	margin-bottom: 40px;
+}
+
+
+/*sm*/
+@media (min-width: 500px){
+	.logo-container{
+		padding-top: 16rem;
+	}
+	.shardust-logo{
+		width: 90%;
+	}
+		.landing-text,
+	h1{
+		color: whitesmoke;
+		font-size: 1.8em;
+		margin-bottom: 40px;
+	}
+}
+
+/*md*/
+@media (min-width: 992px){
+	.logo-container{
+		padding-top: 15rem;
+	}
+	.shardust-logo{
+		width: 85%;
+	}
+		.landing-text,
+	h1{
+		color: whitesmoke;
+		font-size: 1.9em;
+		margin-bottom: 40px;
+	}
+}
+
+/*lg*/
+@media (min-width: 1200px){
+	.logo-container{
+		padding-top: 14em;
+	}
+	.shardust-logo{
+		width: 60%;
+	}
+		.landing-text,
+	h1{
+		color: whitesmoke;
+		font-size: 2em;
+		margin-bottom: 40px;
+	}
+}
+
+
+.landing-content{
+	align-items: center;
+	text-align: center;
+}
+
+.btn{
+	font-weight: 600;
+	border-radius: 100px;
+	transition: all 0.2s ease-in-out;
+}
+
+.btn-action{
+	color: whitesmoke;
+	background-color: rgba(34, 133, 209, 1.0);
+	border-color: rgba(34, 133, 209, 1.0);
+}
+
+.btn-xl{
+	padding: 1rem 2rem;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	color: whitesmoke;
+	background-color: rgba(34, 133, 209, 1.0);
+	border-color: rgba(34, 133, 209, 1.0);
+}
+
+.btn:hover{
+	background-color: rgba(44, 144, 245, 1.0);
+	border-color: rgba(44, 144, 245, 1.0);
+	color: whitesmoke;
+	box-shadow: 0 0 10px 10px rgba(34, 133, 209, .4);
+}
+
+.transparent-cover{
+	opacity: 1;
+	background-color: rgba(0,0,0,.3);
+/*	width: 100%;
+	height: 100%;*/
+}
+
+/*.transparent-cover.black{
+	background-color: rgba(0, 0, 0, .6);*/
+}
+.navbar-bottom{
+	right: 0;
+  	bottom: 0;
+  	left: 0;
+  	z-index: 1030;
+}
+
+.col-sm{
+	text-align: center;
+}
+
+.col-md{
+	text-align: left;
+}
